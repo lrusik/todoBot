@@ -1,0 +1,7 @@
+setuptools 
+config 
+py
+pytest
+requests
+six
+wheel

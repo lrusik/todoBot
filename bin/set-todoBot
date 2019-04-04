@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+import os
+from os.path import expanduser
+
+if __name__ == "__main__":
+	try :
+		os.mkdir(expanduser("~") + "/.rbBot")	
+	except:
+		pass
+	file = open( expanduser("~") + "/.rbBot/todoBotToken", "w")
+	token = input("Your token : ")
+	file.write(token)
+	file.close()
+

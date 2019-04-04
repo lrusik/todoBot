@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo rm /usr/local/bin/regimeBot
+sudo rm /usr/local/bin/set-regimeBot
+sudo rm -r /usr/local/lib/python3.6/dist-packages/regimeBot*
+rm -r ~/.rbBot

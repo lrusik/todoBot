@@ -8,7 +8,7 @@ with open('README.md', 'r', encoding="utf-8") as content_file:
 
 setup(
     name="todoBot",
-    version="0.1", 
+    version="0.3", 
     packages=find_packages(),
     install_requires=[
         'setuptools', 
@@ -25,7 +25,7 @@ setup(
     scripts=["bin/todoBot", "bin/set-todoBot"], 
     author="Ruslan Yakushev", 
     author_email="yakushev.rusl101@gmail.com",
-    description="Simple bot",
+    description="Task manager telegram bot",
     long_description = long_description,
     url="https://github.com/lrusifikator/todoBot",
     license="MIT",  

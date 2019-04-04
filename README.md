@@ -6,9 +6,9 @@ Overview
 
 todoBot is a task manager telegram bot. There are two types of tasks.
 The first one will notify you every day until you delete it. The second
-one is a timer with a start button. You create a bunch of tasks and then
-press the start button after what the timer runs and notify you at a
-certain time. Basically a multiple timer.
+one is a timer with a start button. You create a number of tasks and then
+press the start button after the timer runs and notify you at a
+certain time, basically a multiple timer.
 
 Installation
 ============
@@ -28,14 +28,14 @@ Usage
 =====
 
 It is possible to use it only if you have a free server where you can
-run it whole the time. It doesn't need much, a low-end PC would be more
+run it consistently. It doesn't need much; a low-end PC would be more
 than enough.
 
 Creating a bot
 --------------
 
 1.  Search for the “botfather” telegram bot in the telegram search bar
-    (he’s the one that’ll assist you with creating and managing your
+    (it is the one that’ll assist you with creating and managing your
     bot)
 2.  Click on or type `/newbot` to create a new bot.
 
@@ -47,9 +47,9 @@ Setting up the todoBot
 5.  Type in the terminal `todoBot`
 
 If you want it to run on a server using ssh, type in the ssh session:
-`nohup todoBot &> /dev/null &` It'ill make able to keep the bot
-running after living the ssh session, delete all the output and hide the
-process
+`nohup todoBot &> /dev/null &` It will keep the bot
+running after leaving the ssh session, delete all the output and hide the
+process.
 
 Contact information
 ===================

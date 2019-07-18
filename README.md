@@ -4,11 +4,8 @@
 Overview
 ========
 
-todoBot is a task manager telegram bot. There are two types of tasks.
-The first one will notify you every day until you delete it. The second
-one is a timer with a start button. You create a number of tasks and then
-press the start button after the timer runs and notify you at a
-certain time, basically a multiple timer.
+It is a telegram chat task manager. 
+Basically i wrote it to practice a bit in python and telegram API. If someone need the code you can just take any part you want, I'm totally fine with it :)
 
 Installation
 ============
